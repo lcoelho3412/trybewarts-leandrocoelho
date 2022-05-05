@@ -11,8 +11,16 @@
   align-content: center;
 }
 
-
 .trybewarts-login {
   display: flex;
   border: solid 1px red;
+}
+
+main {
+  display: flex;
+}
+
+form:nth-child( 2 ) {
+  display: flex;
+  width: 675px;
 }
