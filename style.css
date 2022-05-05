@@ -6,4 +6,12 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-between;
+  width:  100%;
+}
+
+.trybewarts-login {
+  display: flex;
+  border: solid 1px red;
+
 }
