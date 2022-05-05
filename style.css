@@ -27,3 +27,7 @@ main {
   flex-direction: column;
   border: solid 1px red;
 }
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
