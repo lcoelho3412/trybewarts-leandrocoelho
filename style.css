@@ -20,7 +20,10 @@ main {
   display: flex;
 }
 
-form:nth-child( 2 ) {
+#evaluation-form {
   display: flex;
   width: 675px;
+  height: 20px;
+  flex-direction: column;
+  border: solid 1px red;
 }
