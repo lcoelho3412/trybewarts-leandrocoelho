@@ -31,3 +31,13 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.name {
+  display: flex;
+  border: 1px solid purple;
+}
+
+.house {
+  display: flex;
+  border: 1px solid teal;
+}
