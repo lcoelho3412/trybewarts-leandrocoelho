@@ -49,3 +49,12 @@ hr {
   background-color: black;
 }
 
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkBoxes {
+  display: flex;
+  flex-direction: column;
+}
