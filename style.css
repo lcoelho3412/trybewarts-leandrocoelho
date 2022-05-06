@@ -23,9 +23,9 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  height: 20px;
   flex-direction: column;
-  border: solid 1px red;
+  border: solid 1px yellow;
+  gap: 10px;
 }
 
 #trybewarts-forms-logo {
@@ -35,9 +35,17 @@ main {
 .name {
   display: flex;
   border: 1px solid purple;
+  padding: 10px;
 }
 
 .house {
   display: flex;
   border: 1px solid teal;
 }
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: black;
+}
+
