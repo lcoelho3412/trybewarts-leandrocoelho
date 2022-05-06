@@ -104,10 +104,11 @@
       <div>
         <!-- div para checkbox "você concorda" -->
         <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-        <input type="checkbox" id="agreement" name="" value="">
+        <!-- adicionado a propriedade required -->
+        <input type="checkbox" id="agreement" name="" value="" required>
       </div>
-      <!-- button para submit -->
-      <button type="submit" id="submit-btn">Enviar</button>
+      <!-- botão para enviar o submit, adicionado a propriedade desabilitado -->
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="estandarte">
   </main>
