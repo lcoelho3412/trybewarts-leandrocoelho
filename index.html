@@ -104,16 +104,17 @@
       <div>
         <!-- div para checkbox "você concorda" -->
         <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-        <input type="checkbox" id="agreement" name="" value="">
+        <!-- adicionado a propriedade required -->
+        <input type="checkbox" id="agreement" name="" value="" required>
       </div>
-      <div>
-        <!-- espaço para botão "enviar" -->
-        <input id="submit-btn" type="submit" value="Enviar">
-      </div>
+      <!-- botão para enviar o submit, adicionado a propriedade desabilitado -->
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="estandarte">
   </main>
-
+  <footer>
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
 </body>
 
 </html>
